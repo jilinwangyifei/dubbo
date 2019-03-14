@@ -42,6 +42,9 @@ public interface NotifyListener {
      * @param urls The list of registered information , is always not empty. The meaning is the same as the return value of {@link com.alibaba.dubbo.registry.RegistryService#lookup(URL)}.
      */
     /**
+     *
+     * 设计模式 观察者模式
+     *
      * 当收到服务变更通知时触发。
      * <p>
      * 通知需处理契约：<br>

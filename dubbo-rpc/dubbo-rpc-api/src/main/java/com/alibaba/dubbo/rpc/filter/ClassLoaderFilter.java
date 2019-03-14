@@ -35,6 +35,9 @@ import com.alibaba.dubbo.rpc.RpcException;
 @Activate(group = Constants.PROVIDER, order = -30000)
 public class ClassLoaderFilter implements Filter {
 
+    /**
+     * 设计模式 装饰器模式
+     */
     @Override
     public Result invoke(Invoker<?> invoker, Invocation invocation) throws RpcException {
         // 获得原来的类加载器

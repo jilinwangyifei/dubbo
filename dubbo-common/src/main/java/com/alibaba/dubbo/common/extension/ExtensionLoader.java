@@ -211,6 +211,8 @@ public class ExtensionLoader<T> {
     /**
      * 根据拓展点的接口，获得拓展加载器
      *
+     * 设计模式 工厂模式
+     *
      * @param type 接口
      * @param <T> 泛型
      * @return 加载器
